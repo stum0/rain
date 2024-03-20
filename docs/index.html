@@ -1,0 +1,42 @@
+<!DOCTYPE html><html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>rain</title>
+    
+<script type="module">
+import init, * as bindings from './rain-20dab57ddaeeda31.js';
+init('./rain-20dab57ddaeeda31_bg.wasm');
+window.wasmBindings = bindings;
+
+</script>
+    
+    <style>
+        body,
+        html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            width: 100%;
+            overflow: hidden;
+        }
+
+        canvas {
+            width: 100% !important;
+            height: 100% !important;
+        }
+    </style>
+
+<link rel="preload" href="./rain-20dab57ddaeeda31_bg.wasm" crossorigin="anonymous" integrity="sha384-Tw4cGyLcETlgPJecTrKQV0Q220fzTnc2yZP9mdlrTL0yMVmiaNp2dFMWq2UqcjXl" as="fetch" type="application/wasm">
+<link rel="modulepreload" href="./rain-20dab57ddaeeda31.js" crossorigin="anonymous" integrity="sha384-9o9ftvC5gvvzsjakbOgOK-5rWUghws1Ytfm82u0gWoj91YJZTgWhj0lK7Ssg-n_i"></head>
+
+<body>
+    <script>
+        document.addEventListener("contextmenu", function (e) {
+            e.preventDefault();
+        });
+    </script>
+
+
+
+</body></html>
